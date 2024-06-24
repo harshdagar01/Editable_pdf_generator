@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("./fonts/HelveticaNeueLTStd.woff2") format("woff2"),
+    url("./fonts/HelveticaNeueLTStd.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.font-helvetica-neue-lt-std {
+  font-family: "Helvetica Neue LT Std";
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.line-height-21.6 {
+  line-height: 21.6px;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
